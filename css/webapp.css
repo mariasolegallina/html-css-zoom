@@ -16,11 +16,30 @@ html {
     flex-direction: column;
 }
 
+/* main */
 .app__content {
     flex-grow: 1;
-    padding: 30px 30px 10px 30px;
+    padding: 50px 50px 25px 50px;
 }
 
+.container {
+    /* max-width: 100%; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container__cam {
+    max-width: calc(100% / 6);
+    padding: 10px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+/* toolbar */
 .app__toolbar {
     background-color: #222222;
     height: 60px;
@@ -35,7 +54,6 @@ html {
     align-items: center;
 }
 
-/* icons */
 .btn__icon-text {
     display: flex;
     flex-direction: column;
