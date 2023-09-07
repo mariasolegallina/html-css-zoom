@@ -18,6 +18,7 @@ html {
 
 .app__content {
     flex-grow: 1;
+    padding: 30px 30px 10px 30px;
 }
 
 .app__toolbar {
