@@ -23,6 +23,51 @@ html {
 
 .app__toolbar {
     background-color: #222222;
-    height: 70px;   
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
 }
 
+.btn {
+    display: flex;
+    align-items: center;
+}
+
+/* icons */
+.btn__icon-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 5px;
+}
+
+i {
+    color: white;
+    display: block;
+    margin: 0 auto;
+}
+
+.icon-text {
+    color: white;
+    font-size: 10px;
+    line-height: 20px;
+}
+
+.fa-share-from-square.green-icon {
+    color: #4cc703;
+}
+
+.arrow {
+    padding-right: 5px;
+}
+
+.btn-end {
+    width: 100px;
+    color: red;
+    text-align: center;
+    line-height: 60px;
+    font-size: 10px;
+    background-color: #4a4a4a;
+}
