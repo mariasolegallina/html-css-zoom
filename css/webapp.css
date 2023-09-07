@@ -10,4 +10,18 @@ html {
 
 #app {
     height: 100vh;
+    overflow: hidden;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
 }
+
+.app__content {
+    flex-grow: 1;
+}
+
+.app__toolbar {
+    background-color: #222222;
+    height: 70px;   
+}
+
